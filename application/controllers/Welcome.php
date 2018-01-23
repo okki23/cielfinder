@@ -24,8 +24,8 @@ class Welcome extends CI_Controller {
 			'roots'=>array(
 				array(
 					'driver'=>'LocalFileSystem',
-					'path'=>'./myfile',
-					'URL'=>base_url('myfile').'/',
+					'path'=>'./uploads',
+					'URL'=>base_url('uploads').'/',
 				)
 			)
 		)));
